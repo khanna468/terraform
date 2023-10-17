@@ -1,7 +1,7 @@
 #resource "aws_instance" "east1" {
   #ami           = lookup(var.ami_map, var.region_map)
   #istance_type = "t3.micro"
-   3availability_zone = "us-east-1a"
+   #availability_zone = "us-east-1a"
    #vpc_security_group_ids = [aws_security_group.private_Security_group_east.id]
    #key_name = "aaru"
    #provider = aws.us-east-1
