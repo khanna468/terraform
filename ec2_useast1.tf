@@ -47,7 +47,7 @@
  #   cidr_blocks      = ["0.0.0.0/0"]
 # }
 
-  tags = {
-    Name = " private Instance"
-  }
-}
+  #tags = {
+   # Name = " private Instance"
+  #}
+#}
