@@ -21,4 +21,4 @@ variable "ami_map" {
   }
 }
 
-variable "region_map" {}
+#variable "region_map" {}
