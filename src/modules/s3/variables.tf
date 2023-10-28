@@ -1,6 +1,6 @@
 variable "bucket_name" {
     type = string
-  
+    default = "mytestadddee"
 }
 
 variable "environment" {
@@ -9,7 +9,7 @@ variable "environment" {
 }
 
 variable "acl" {
-    default = None
+    default = null
   
 }
 
