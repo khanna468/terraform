@@ -3,6 +3,8 @@ module "mys31" {
     bucket_name = "pandugadu234-bucket"
     environment = "dev"
     acl         = "private"
-    
+    export_name = module.mys3.bucket_id
+        
+    }
 
 }
