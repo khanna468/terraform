@@ -1,7 +1,7 @@
-output "bucket_id" {
+output "id" {
   value = aws_s3_bucket.example.id
 }
 
-output "bucket_arn" {
+output "arn" {
     value = aws_s3_bucket.example.arn
 }
